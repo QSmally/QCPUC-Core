@@ -1,8 +1,8 @@
 
-@import <Core/Void.h>
-@import <Integers/UInt8.h>
+#import <Core/Void.h>
+#import <Integers/UInt8.h>
 
-@class SizableObject
+@protocol SizableObject
 
     // Allocation of an object in virtual memory. For allocating on the heap, the
     // amount of bytes that are physically reserved for this object won't be exactly

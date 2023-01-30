@@ -1,3 +1,2 @@
 
-@struct Void
-@end
+@class Void;

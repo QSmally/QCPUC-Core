@@ -1,3 +1,2 @@
 
-@struct UInt8: LiteralUInt
-@end
+@class UInt8: LiteralUInt

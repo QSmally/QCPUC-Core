@@ -1,7 +1,7 @@
 
-@import <Core/Void.h>
+#import <Core/Void.h>
 
-@class Object
+@protocol Object
 
     // Allocation of an object in virtual memory.
     + (Object*)allocHeap;
