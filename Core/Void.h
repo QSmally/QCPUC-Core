@@ -1,2 +1,3 @@
 
-@class Void;
+@interface Void
+@end
