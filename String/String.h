@@ -12,8 +12,8 @@
     // String* myHeapString = [[String allocSize:16] init:"bar"];
     //
     // TODO: Remove duplication by abstracting (String)stack and (String*)heap types; keep in mind MST/MLD stack bit.
-    - (TransparentType)init:(TransparentType)preset;
-    - (TransparentType)init:(StringLiteralType)preset;
+    - (UniversalType)init:(UniversalType)preset;
+    - (UniversalType)init:(StringLiteralType)preset;
 
     // Size of the string in memory in O(n) time.
     - (UInt8)length;
