@@ -5,7 +5,9 @@
 
 ## Compiler types
 
-* `InstanceType` (uppermost class)
+* `InstanceType` (uppermost class allocated on the stack)
+* `InstanceType*` (uppermost class allocated on the heap)
+* `TransparentType` (universal type, either `InstanceType` or `InstanceType*`)
 * Literals:
     - `StringLiteralType` (`"foo"`)
     - `UIntLiteralType` (`24`)

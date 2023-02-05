@@ -9,13 +9,11 @@
     // the terminating byte for the string.
     //
     // String myStackString = [[String allocSize:16] init:"foo"];
-    // String* myHeapString = [[String allocSize:16] init:]
+    // String* myHeapString = [[String allocSize:16] init:"bar"];
     //
     // TODO: Remove duplication by abstracting (String)stack and (String*)heap types; keep in mind MST/MLD stack bit.
-    - (InstanceType)init:(InstanceType*)preset;
-    - (InstanceType)init:(StringLiteralType)preset;
-    - (InstanceType*)init:(InstanceType*)preset;
-    - (InstanceType*)init:(StringLiteralType)preset;
+    - (TransparentType)init:(TransparentType)preset;
+    - (TransparentType)init:(StringLiteralType)preset;
 
     // Size of the string in memory in O(n) time.
     - (UInt8)length;
