@@ -1,11 +1,11 @@
 
-@interface UInt8: IntLiteralType, ReferenceType
+@interface Int8: IntLiteralType, ReferenceType
 
-    // Addition of two UInt8 operands.
+    // Addition of two Int8 operands.
     - (UniversalType)+:(UniversalType)operand;
     - (UniversalType)+:(IntLiteralType)operand;
 
-    // Subtraction of two UInt8 operands.
+    // Subtraction of two Int8 operands.
     - (UniversalType)-:(UniversalType)operand;
     - (UniversalType)-:(IntLiteralType)operand;
 @end
